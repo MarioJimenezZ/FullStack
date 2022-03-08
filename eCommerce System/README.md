@@ -12,16 +12,8 @@ An eCommerce application built using Java 8, includes multi-tier user system wit
   * PostgreSQL
   * Postman (HTTP messaging)
   * Gradle (Dependency Management)
-*	Functionalities: 
-  * Multi-tier Users - There must be at least three different types of user accounts each different functionality access. 
-  * Basic mathematic manipulation of the fields of an entity object.
-  * User login with passwords and logout.
-    * Passwords may not be stored in their raw form in the database. They must be encrypted somehow. 
-    * Stretch Goal: User registration. 
-  * Validation for invalid inputs. 
-  * Reasonable Logging of user interactions with the application. 
 
-** Application Design**
+**Application Design**
   * Data persistence in a SQL database normalized to 3rd normal form. 
   * Three layered architecture of the Java application.
   * DAO design pattern.
