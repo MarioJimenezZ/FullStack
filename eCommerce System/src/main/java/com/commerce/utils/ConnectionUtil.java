@@ -14,9 +14,9 @@ public class ConnectionUtil {
             e.printStackTrace();
         }
 
-        String url = "jdbc:postgresql://javafs.cigojrhsanom.us-west-1.rds.amazonaws.com:5432/project0";
-        String username = "postgres";
-        String password = "password";
+        String url = "";
+        String username = "";
+        String password = "";
 
         return DriverManager.getConnection(url, username, password);
     }
